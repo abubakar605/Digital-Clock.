@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+}
+h1 {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 80px;
+}
+h1:hover {
+    text-decoration: underline;
+    color: red;
+    font-size: 70px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#container{
+    position: relative;
+    font-family: Verdana;
+    padding-top: 5%;
+}
+#clock {
+    width: 20%;
+    margin: 0 auto;
+    background-color: #585656;
+    color: white;
+    font-size: 82px;
+    display: flex;
+    padding: 5%;
+    top: 100%;
+    border-radius: 4%;
+    justify-content: center;
+}
+#clock:hover {
+    border: 2px solid white;
+    box-shadow: 10px 5px 5px aqua;
+    font-size: 95px;
+}
